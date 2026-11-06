@@ -1,0 +1,54 @@
+# system-setup .gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup*
+*~
+*.bak
+*.orig
+
+# Local config overrides (contain secrets/paths)
+.env
+.env.local
+.env.*.local
+
+# Neovim
+.config/nvim/lazy-lock.json
+.config/nvim/.todo.json
+.config/nvim/sessions/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Wallpapers (large binary files - use git-lfs or exclude)
+# assets/wallpapers/*.png
+# assets/wallpapers/*.jpg
+# assets/wallpapers/*.jpeg
+
+# Secrets (never commit)
+*secret*
+*token*
+*key*
+*.pem
+*.key

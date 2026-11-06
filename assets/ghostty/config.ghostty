@@ -1,0 +1,7 @@
+theme = dankcolors
+font-family = "JetBrainsMono Nerd Font", "FiraCode Nerd Font", "JetBrains Mono", monospace
+font-size = 13
+font-feature = liga=1
+background-blur = 20
+window-padding-x = 12
+window-padding-y = 12

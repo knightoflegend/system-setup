@@ -1,0 +1,12 @@
+[templates.ghostty]
+input_path = '/home/king/.config/matugen/templates/ghostty.conf'
+output_path = '/home/king/.config/ghostty/themes/matugen-theme'
+
+[config]
+mode = 'dark'
+type = 'scheme-vibrant'
+prefer = 'darkness'
+
+[templates.fuzzel]
+input_path = '/home/king/.config/matugen/templates/fuzzel.conf'
+output_path = '/home/king/.config/fuzzel/fuzzel-theme.conf'

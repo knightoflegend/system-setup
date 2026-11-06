@@ -1,0 +1,17 @@
+[Unit]
+Description=Dank Material Shell
+After=wayland.target
+Wants=wayland.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/dms run
+Restart=on-failure
+RestartSec=5
+Environment=WAYLAND_DISPLAY=%w
+Environment=XDG_CURRENT_DESKTOP=DMS
+Environment=XDG_SESSION_TYPE=wayland
+Environment=XDG_SESSION_DESKTOP=DMS
+
+[Install]
+WantedBy=default.target
